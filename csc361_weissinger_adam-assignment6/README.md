@@ -1,2 +1,2 @@
-# CSC361_weissinger_adam
+# CSC361_Platformer_Group_Project
 
