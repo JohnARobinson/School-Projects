@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/dat boi!!!!.ogg-93f385872092c643bf498ed7a43c8398.oggstr"
+
+[deps]
+
+source_file="res://resources/JR assets and idea's/sounds/dat boi!!!!.ogg"
+dest_files=[ "res://.import/dat boi!!!!.ogg-93f385872092c643bf498ed7a43c8398.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Monster Noise1.ogg-d04d9bde7ce3fc9bb4057782a952baf2.oggstr"
+
+[deps]
+
+source_file="res://resources/JR assets and idea's/sounds/Monster Noise1.ogg"
+dest_files=[ "res://.import/Monster Noise1.ogg-d04d9bde7ce3fc9bb4057782a952baf2.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

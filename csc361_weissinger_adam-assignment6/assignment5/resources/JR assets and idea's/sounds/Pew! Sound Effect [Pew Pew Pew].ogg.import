@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Pew! Sound Effect [Pew Pew Pew].ogg-5a4824a8bc6d3ea7e666a936b400a12d.oggstr"
+
+[deps]
+
+source_file="res://resources/JR assets and idea's/sounds/Pew! Sound Effect [Pew Pew Pew].ogg"
+dest_files=[ "res://.import/Pew! Sound Effect [Pew Pew Pew].ogg-5a4824a8bc6d3ea7e666a936b400a12d.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

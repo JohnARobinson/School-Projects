@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Shaq Fu - Track 16.wav-94e365a7aa991398324926562e0ffe30.sample"
+
+[deps]
+
+source_file="res://resources/sounds/music/Shaq Fu - Track 16.wav"
+dest_files=[ "res://.import/Shaq Fu - Track 16.wav-94e365a7aa991398324926562e0ffe30.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

@@ -1,0 +1,27 @@
+[gd_scene format=2]
+
+[node name="UI" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+
+[node name="score" type="Label" parent="."]
+margin_right = 40.0
+margin_bottom = 14.0
+text = "Score:"
+
+[node name="scoreNum" type="Label" parent="."]
+margin_left = 44.7677
+margin_top = -0.111362
+margin_right = 84.7677
+margin_bottom = 13.8886
+text = "5000"
+__meta__ = {
+"_edit_use_anchors_": false
+}

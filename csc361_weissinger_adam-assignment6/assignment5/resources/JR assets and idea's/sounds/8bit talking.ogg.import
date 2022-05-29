@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/8bit talking.ogg-6c2fb07dc19df153273c3a3e1c6fb84a.oggstr"
+
+[deps]
+
+source_file="res://resources/JR assets and idea's/sounds/8bit talking.ogg"
+dest_files=[ "res://.import/8bit talking.ogg-6c2fb07dc19df153273c3a3e1c6fb84a.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

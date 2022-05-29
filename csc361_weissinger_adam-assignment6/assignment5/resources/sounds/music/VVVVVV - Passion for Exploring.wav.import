@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/VVVVVV - Passion for Exploring.wav-2df9e4a3d8334b48cdd2c46b3eb4d12b.sample"
+
+[deps]
+
+source_file="res://resources/sounds/music/VVVVVV - Passion for Exploring.wav"
+dest_files=[ "res://.import/VVVVVV - Passion for Exploring.wav-2df9e4a3d8334b48cdd2c46b3eb4d12b.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

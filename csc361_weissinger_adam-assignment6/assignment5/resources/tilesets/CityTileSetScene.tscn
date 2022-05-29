@@ -1,0 +1,186 @@
+[gd_scene load_steps=27 format=2]
+
+[ext_resource path="res://resources/warpcity/warped city files/warped city files/ENVIRONMENT/props/control-box-1.png" type="Texture" id=1]
+[ext_resource path="res://resources/bricks/red_brick_big.png" type="Texture" id=2]
+[ext_resource path="res://resources/warpcity/warped city files/warped city files/ENVIRONMENT/props/control-box-2.png" type="Texture" id=3]
+[ext_resource path="res://resources/warpcity/warped city files/warped city files/ENVIRONMENT/props/control-box-3.png" type="Texture" id=4]
+[ext_resource path="res://resources/bricks/blue_brick_big.png" type="Texture" id=5]
+[ext_resource path="res://resources/bricks/yellow_brick_big.png" type="Texture" id=6]
+[ext_resource path="res://resources/warpcity/warped city files/warped city files/ENVIRONMENT/tileEndL.png" type="Texture" id=7]
+[ext_resource path="res://resources/warpcity/warped city files/warped city files/ENVIRONMENT/tile1.png" type="Texture" id=8]
+[ext_resource path="res://resources/warpcity/warped city files/warped city files/ENVIRONMENT/tileEndR.png" type="Texture" id=9]
+[ext_resource path="res://resources/warpcity/warped city files/warped city files/ENVIRONMENT/wallLTop.png" type="Texture" id=10]
+[ext_resource path="res://resources/warpcity/warped city files/warped city files/ENVIRONMENT/wallLBot.png" type="Texture" id=11]
+[ext_resource path="res://resources/warpcity/warped city files/warped city files/ENVIRONMENT/wallRTop.png" type="Texture" id=12]
+[ext_resource path="res://resources/warpcity/warped city files/warped city files/ENVIRONMENT/wallRBot.png" type="Texture" id=13]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 120, 120 )
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 120, 120 )
+
+[sub_resource type="RectangleShape2D" id=6]
+extents = Vector2( 120, 120 )
+
+[sub_resource type="RectangleShape2D" id=7]
+extents = Vector2( 16.1362, 15.3387 )
+
+[sub_resource type="RectangleShape2D" id=8]
+extents = Vector2( 8.31493, 13.5172 )
+
+[sub_resource type="RectangleShape2D" id=9]
+extents = Vector2( 30.9768, 15.0155 )
+
+[sub_resource type="RectangleShape2D" id=10]
+extents = Vector2( 8.03545, 7.91853 )
+
+[sub_resource type="RectangleShape2D" id=11]
+extents = Vector2( 7.98934, 7.99198 )
+
+[sub_resource type="RectangleShape2D" id=12]
+extents = Vector2( 7.98934, 7.99198 )
+
+[sub_resource type="RectangleShape2D" id=13]
+extents = Vector2( 7.97334, 12.008 )
+
+[sub_resource type="RectangleShape2D" id=3]
+extents = Vector2( 7.97334, 12.008 )
+
+[sub_resource type="RectangleShape2D" id=4]
+extents = Vector2( 8.00534, 12.008 )
+
+[sub_resource type="RectangleShape2D" id=5]
+extents = Vector2( 8.00534, 12.008 )
+
+[node name="Node2D" type="Node2D"]
+
+[node name="yellowBrick" type="Sprite" parent="."]
+scale = Vector2( 0.066, 0.066 )
+texture = ExtResource( 6 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="yellowBrick"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="yellowBrick/StaticBody2D"]
+shape = SubResource( 1 )
+
+[node name="blueBrick" type="Sprite" parent="."]
+visible = false
+scale = Vector2( 0.066, 0.066 )
+texture = ExtResource( 5 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="blueBrick"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="blueBrick/StaticBody2D"]
+shape = SubResource( 2 )
+
+[node name="redBrick" type="Sprite" parent="."]
+visible = false
+scale = Vector2( 0.066, 0.066 )
+texture = ExtResource( 2 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="redBrick"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="redBrick/StaticBody2D"]
+shape = SubResource( 6 )
+
+[node name="controlBox1" type="Sprite" parent="."]
+visible = false
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 1 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="controlBox1"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="controlBox1/StaticBody2D"]
+shape = SubResource( 7 )
+
+[node name="controlBox2" type="Sprite" parent="."]
+visible = false
+scale = Vector2( 0.593, 0.593 )
+texture = ExtResource( 3 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="controlBox2"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="controlBox2/StaticBody2D"]
+position = Vector2( -0.5, 0 )
+shape = SubResource( 8 )
+
+[node name="controlBox3" type="Sprite" parent="."]
+visible = false
+scale = Vector2( 0.258, 0.258 )
+texture = ExtResource( 4 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="controlBox3"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="controlBox3/StaticBody2D"]
+shape = SubResource( 9 )
+
+[node name="platformMid" type="Sprite" parent="."]
+visible = false
+texture = ExtResource( 8 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="platformMid"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="platformMid/StaticBody2D"]
+shape = SubResource( 10 )
+
+[node name="platformEndR" type="Sprite" parent="."]
+visible = false
+texture = ExtResource( 9 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="platformEndR"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="platformEndR/StaticBody2D"]
+shape = SubResource( 11 )
+
+[node name="platformEndL" type="Sprite" parent="."]
+visible = false
+texture = ExtResource( 7 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="platformEndL"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="platformEndL/StaticBody2D"]
+shape = SubResource( 12 )
+
+[node name="wallL1" type="Sprite" parent="."]
+scale = Vector2( 0.66, 0.66 )
+texture = ExtResource( 10 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="wallL1"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="wallL1/StaticBody2D"]
+position = Vector2( -4, 0 )
+shape = SubResource( 13 )
+
+[node name="wallL2" type="Sprite" parent="."]
+visible = false
+scale = Vector2( 0.66, 0.66 )
+texture = ExtResource( 11 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="wallL2"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="wallL2/StaticBody2D"]
+position = Vector2( -4, 0 )
+shape = SubResource( 3 )
+
+[node name="wallR1" type="Sprite" parent="."]
+visible = false
+scale = Vector2( 0.66, 0.66 )
+texture = ExtResource( 12 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="wallR1"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="wallR1/StaticBody2D"]
+position = Vector2( 4, 0 )
+shape = SubResource( 4 )
+
+[node name="wallR2" type="Sprite" parent="."]
+visible = false
+scale = Vector2( 0.66, 0.66 )
+texture = ExtResource( 13 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="wallR2"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="wallR2/StaticBody2D"]
+position = Vector2( 4, 0 )
+shape = SubResource( 5 )

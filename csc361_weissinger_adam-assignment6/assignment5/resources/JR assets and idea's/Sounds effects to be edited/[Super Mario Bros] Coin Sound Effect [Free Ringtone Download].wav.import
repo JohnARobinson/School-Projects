@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/[Super Mario Bros] Coin Sound Effect [Free Ringtone Download].wav-b0dfe68a54fd081b51dbcb7769e076a3.sample"
+
+[deps]
+
+source_file="res://resources/JR assets and idea's/Sounds effects to be edited/[Super Mario Bros] Coin Sound Effect [Free Ringtone Download].wav"
+dest_files=[ "res://.import/[Super Mario Bros] Coin Sound Effect [Free Ringtone Download].wav-b0dfe68a54fd081b51dbcb7769e076a3.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
